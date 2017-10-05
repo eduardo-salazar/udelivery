@@ -4,9 +4,9 @@ import { Platform, MenuController, Nav } from 'ionic-angular';
 
 import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
 import { ListPage } from '../pages/list/list';
-import { Board } from '../pages/board/board';
-import { Friends } from '../pages/friends/friends';
-import { Locations } from '../pages/locations/locations'
+import { BoardPage } from '../pages/board/board';
+import { FriendsPage } from '../pages/friends/friends';
+import { LocationsPage } from '../pages/locations/locations'
 
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -35,9 +35,9 @@ export class MyApp {
     this.pages = [
       { title: 'Hello Ionic', component: HelloIonicPage },
       { title: 'My First List', component: ListPage },
-      { title: 'Board', component: Board },
-      { title: 'Friends', component: Friends },
-      { title: 'Locations', component: Locations}
+      { title: 'Board', component: BoardPage },
+      { title: 'Friends', component: FriendsPage },
+      { title: 'Locations', component: LocationsPage }
     ];
   }
 
